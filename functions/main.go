@@ -72,7 +72,7 @@ func discountBasedOnAge(age uint) uint {
 
 	return 15
 }
-func main() {
+func main5() {
 	discountPercent := discountBasedOnAge(38)
 	fmt.Println((discountPercent))
 }
